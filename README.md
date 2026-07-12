@@ -100,4 +100,4 @@ VITE_API_URL=http://localhost:5000/api
 
 ## 👤 Author
 
-Built by Ruby as part of a Full Stack Developer Internship assignment.
+Built by Mitali as part of a Full Stack Developer Internship assignment.
