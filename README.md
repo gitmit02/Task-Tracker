@@ -4,8 +4,8 @@ A full-stack task management app with user authentication. Each user signs up, l
 
 ## 🔗 Live Links
 
-- **Live App:** [your-vercel-url-here]
-- **Backend API:** [your-render-url-here]
+- **Live App:** [[Frontend](https://task-tracker-flame-seven-80.vercel.app/)]
+- **Backend API:** [[Backend](https://task-tracker-backend-bcuj.onrender.com/)]
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@ A full-stack task management app with user authentication. Each user signs up, l
 **Auth:** JWT (jsonwebtoken) + bcrypt password hashing
 
 ## 📁 Project Structure
-
+```
 task-tracker/
 ├── backend/
 │   ├── controllers/     # Route logic (auth, tasks)
@@ -45,6 +45,7 @@ task-tracker/
 │   └── api.js        # API calls + auth token handling
 └── vite.config.js
 
+```
 ## 🚀 Getting Started Locally
 
 ### Backend
@@ -67,15 +68,17 @@ npm run dev
 ## 🔑 Environment Variables
 
 **Backend (`.env`)**
-
+```
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_long_random_secret_string
-
+```
 **Frontend (`.env`)**
+```
 
 VITE_API_URL=http://localhost:5000/api
 
+```
 ## 📡 API Endpoints
 
 | Method | Endpoint | Description | Auth Required |
@@ -89,7 +92,11 @@ VITE_API_URL=http://localhost:5000/api
 
 ## 📸 Screenshots
 
-*(add a screenshot or two of the login page and task dashboard here)*
+<img width="1258" height="895" alt="image" src="https://github.com/user-attachments/assets/b0a737b8-45eb-4ddb-a6c0-d950333e932b" />
+
+<img width="1085" height="436" alt="image" src="https://github.com/user-attachments/assets/a030d9fa-94b3-4895-af80-2c6ad8aa8caa" />
+
+
 
 ## 👤 Author
 
