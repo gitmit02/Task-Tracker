@@ -5,8 +5,12 @@ import {
   updateTask,
   deleteTask,
 } from "../controllers/taskController.js";
+import { protect } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
+
+// All task routes require a valid logged-in user
+router.use(protect);
 
 router.get("/", getTasks);
 router.post("/", createTask);
